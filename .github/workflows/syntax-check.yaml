@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: syr-org-v1
+    runs-on: ubuntu-latest
 
     steps:
     - name: Check out the code
